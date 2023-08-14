@@ -913,6 +913,10 @@ section.lazy-placeholder:after {
 .cid-s06qzpOfS3 .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-s06qzpOfS3 .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-s06qzpOfS3 .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-s06qzpOfS3 .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-s06qzpOfS3 .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1014,6 +1018,10 @@ section.lazy-placeholder:after {
   .cid-s06qzpOfS3 .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-s06qzpOfS3 .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-s06qzpOfS3 .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-s06qzpOfS3 .navbar-collapse.collapsing .navbar-buttons,
   .cid-s06qzpOfS3 .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1103,7 +1111,11 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s06qsgkspa H1 {
-  text-align: right;
+  text-align: left;
+}
+.cid-s06qsgkspa .mbr-text,
+.cid-s06qsgkspa .mbr-section-btn {
+  text-align: left;
 }
 .cid-s06qEiz49X {
   padding-top: 90px;
